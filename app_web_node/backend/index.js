@@ -17,10 +17,13 @@ async function crearAdminSiNoExiste() {
       return;
     }
 
+    // 🔒 Encriptar la contraseña del admin
+    const hashedPassword = await bcrypt.hash("123456", 10);
+
     const admin = new Usuario({
       name: "admin",
       email: "admin@correo.com",
-      password: "123456",
+      password: hashedPassword,   // <-- CONTRASEÑA ENCRIPTADA
       office: "oficina 1",
       position: "admin",
       salary: 0
@@ -34,7 +37,6 @@ async function crearAdminSiNoExiste() {
     console.error("Error creando admin:", error);
   }
 }
-
 // EJECUTAR LA FUNCIÓN
 crearAdminSiNoExiste();
 
