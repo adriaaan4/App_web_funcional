@@ -24,12 +24,13 @@ https://nodejs.org/
 Se usa la conexión por defecto:
 mongodb://127.0.0.1:27017/mi_app_web
 
-Instalación
+Instalación:
+
 1️. Clonar el repositorio
 git clone https://github.com/TU_USUARIO/app_web_funcional.git
 
 2. Entrar a la carpeta del backend
-cd app_web_funcional/app_web_node
+3. cd app_web_funcional/app_web_node
 
 Instalar dependencias
 npm install
