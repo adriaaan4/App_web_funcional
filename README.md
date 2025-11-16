@@ -27,18 +27,23 @@ mongodb://127.0.0.1:27017/mi_app_web
 Instalación:
 
 1️. Clonar el repositorio
+
 git clone https://github.com/TU_USUARIO/app_web_funcional.git
 
 2. Entrar a la carpeta del backend
-3. cd app_web_funcional/app_web_node
+
+cd app_web_funcional/app_web_node
 
 Instalar dependencias
+
 npm install
 
 3️. Entrar a la carpeta del frontend
+
 cd ../app_web_react
 
 Instalar dependencias
+
 npm install
 
 -> Cómo ejecutar el proyecto
