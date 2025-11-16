@@ -28,7 +28,7 @@ Instalación:
 
 1️. Clonar el repositorio
 
-git clone https://github.com/TU_USUARIO/app_web_funcional.git
+git clone https://github.com/adriaaan4/app_web_funcional.git
 
 2. Entrar a la carpeta del backend
 
